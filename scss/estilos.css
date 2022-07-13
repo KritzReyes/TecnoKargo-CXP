@@ -94,7 +94,7 @@ h2 {
   background-color: transparent;
 }
 
-/*:::::Imagen de Clientes Activos*/
+/*:::::Page Clientes Activos*/
 .container2 {
   display: flex;
   justify-content: center;
@@ -149,6 +149,7 @@ h2 {
   cursor: pointer;
   transform: scale(1.02);
   transition: all 1s ease;
+  opacity: 1;
 }
 
 /*:::::Pie de Pagina*/
