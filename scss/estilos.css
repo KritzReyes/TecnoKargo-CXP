@@ -43,7 +43,7 @@ header {
 body {
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
-  background-image: url(../Objetos/Fondo.jpg);
+  background-image: url(../objetos/Fondo.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 90%;
@@ -169,7 +169,7 @@ h2 {
 /*:::::MediaQuerys Body*/
 @media screen and (max-width: 640px) {
   body {
-    background-image: url(../Objetos/Fondo.jpg);
+    background-image: url(../objetos/Fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 350%;
@@ -178,7 +178,7 @@ h2 {
 }
 @media screen and (min-width: 640px) and (max-width: 1280px) {
   body {
-    background-image: url(../Objetos/Fondo.jpg);
+    background-image: url(../objetos/Fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 250%;
@@ -187,7 +187,7 @@ h2 {
 }
 @media screen and (min-width: 1280px) {
   body {
-    background-image: url(../Objetos/Fondo.jpg);
+    background-image: url(../objetos/Fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 90%;
