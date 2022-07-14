@@ -103,7 +103,7 @@ h2 {
 
 .card {
   background: white;
-  width: 340px;
+  width: 400px;
   height: 680px;
   margin: 10px;
   border-radius: 15px;
@@ -112,26 +112,37 @@ h2 {
 }
 
 .card-image {
-  height: 300px;
+  height: 200px;
   margin-bottom: 15px;
-  background-size: cover;
   border-radius: 15px 15px 0 0;
 }
 
 .card-1 {
   background-image: url(../objetos/southcargo.png);
+  background-size: 63%;
+  background-repeat: no-repeat;
+  background-position: 80px;
 }
 
 .card-2 {
   background-image: url(../objetos/gps.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: 110px;
 }
 
 .card-3 {
   background-image: url(../objetos/MN.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: 10px;
 }
 
 .card-4 {
   background-image: url(../objetos/TEE.png);
+  background-size: 98%;
+  background-repeat: no-repeat;
+  background-position: 10px;
 }
 
 .boton {
