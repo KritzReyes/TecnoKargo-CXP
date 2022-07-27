@@ -15,8 +15,12 @@
     font-family: 'calibri';
     color: $color-secundario;
     box-shadow: 7px 13px 37px $color-principal;
+
+    &:hover{
+      cursor: pointer;
   }
-  
+}
+
   .form-register h4 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -31,7 +35,7 @@
     border: 1px solid $color-secundario;
     font-family: 'calibri';
     font-size: 18px;
-    color: white;
+    color:aqua;
   }
   
   .form-register p {
@@ -46,14 +50,10 @@
     text-decoration: none;
   }
   
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
   
   .form-register .botons {
     width: 100%;
-    background: rgba(52, 52, 196, 0.712);
+    background: #164773;
     border: $color-secundario;
     padding: 12px;
     color: white;
