@@ -5,10 +5,11 @@
   }
   
   .form-register {
-    width: 400px;
+    width: auto;
     background: $color-principal;
     padding: 80px;
     margin: auto;
+    display: grid;
     margin-top: 100px;
     border-radius: 12px;
     font-family: 'calibri';
@@ -66,3 +67,4 @@
       opacity: 1;
   }
 }
+

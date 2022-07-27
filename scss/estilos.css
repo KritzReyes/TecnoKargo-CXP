@@ -18,10 +18,11 @@
 }
 
 .form-register {
-  width: 400px;
+  width: auto;
   background: #14385c;
   padding: 80px;
   margin: auto;
+  display: grid;
   margin-top: 100px;
   border-radius: 12px;
   font-family: "calibri";
@@ -335,7 +336,7 @@ h2 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-    background-size: 250%;
+    background-size: 230%;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -344,6 +345,6 @@ h2 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-    background-size: 90%;
+    background-size: 120%;
   }
 }/*# sourceMappingURL=estilos.css.map */
