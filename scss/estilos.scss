@@ -1,4 +1,4 @@
-@import "variables","maps","estilosform";
+@import "variables","maps","estilosform","estilosopciones";
 *{
     margin: 0;
     padding: 0;
@@ -52,6 +52,31 @@ flex-direction: column;
 min-height: 100vh;
 }
 
+/*:::::Alinear Textos*/
+.textoinicio{
+  margin-top: 180px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: justify;
+}
+
+.textos2{
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: justify;
+}
+
+/*:::::Alinear Titulos*/
+.titulos{
+  margin-top: 100px;
+}
+
+.titulos2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /*:::::Titulos*/
 h1{
   text-align: center;
@@ -74,12 +99,15 @@ h2{
   display:block;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 /*:::::Imagen de Etapas del desarrollo Con ANIDACION SASS en HOOVER*/
 .imagen-opciones{
   filter: grayscale(90%);
   transition: all 5s;
+  margin-bottom: 50px;
+  margin-top: 50px;
 
 &:hover{
   filter: grayscale(0);
@@ -91,12 +119,16 @@ h2{
   background-color: transparent;
 }
 
+/*:::::Estilos para opciones*/
+
+
 
 /*:::::Page Clientes Activos Con ANIDACION SASS en HOOVER*/ 
 .container2{
-  display: flex;
+display: flex;
 justify-content: center;
 flex-wrap: wrap;
+margin-bottom: 100px;
 }
 
 .card {
