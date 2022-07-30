@@ -79,6 +79,187 @@
   opacity: 1;
 }
 
+/*:::::Page Clientes Activos Con ANIDACION SASS en HOOVER*/
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.card {
+  background: #ffffff;
+  width: 400px;
+  height: 680px;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  opacity: 0.8;
+}
+.card:hover {
+  background-color: #14385c;
+  color: #ffffff;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 1s ease;
+  opacity: 1;
+}
+
+.card-image {
+  height: 200px;
+  margin-bottom: 15px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-1 {
+  background-image: url(../objetos/southcargo.png);
+  background-size: 63%;
+  background-repeat: no-repeat;
+  background-position: 80px;
+}
+
+.card-2 {
+  background-image: url(../objetos/gps.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: 110px;
+}
+
+.card-3 {
+  background-image: url(../objetos/MN.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+.card-4 {
+  background-image: url(../objetos/TEE.png);
+  background-size: 98%;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+.boton {
+  background-color: #14385c;
+  color: #ffffff;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 50px 50px;
+}
+
+/*:::::Page opciones Con ANIDACION SASS en HOOVER*/
+.containeropciones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.cardopciones {
+  background: #ffffff;
+  width: 200px;
+  height: 400px;
+  margin: 70px;
+  border-radius: 30px;
+  text-align: center;
+  opacity: 0.8;
+}
+.cardopciones:hover {
+  background-color: #14385c;
+  color: #ffffff;
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 1s ease;
+  opacity: 1;
+}
+
+.card-image2 {
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-b1 {
+  background-image: url(../objetos/buscar_factura.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
+.card-b2 {
+  background-image: url(../objetos/registro_de_documentos.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
+.card-b3 {
+  background-image: url(../objetos/procesar_pagos.png);
+  background-size: 68%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
+.card-b4 {
+  background-image: url(../objetos/reversar_pagos.png);
+  background-size: 68%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
+.card-b5 {
+  background-image: url(../objetos/recuperar_factura_eliminada.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
+.card-b6 {
+  background-image: url(../objetos/analisis_de_vencimiento.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
+.card-b7 {
+  background-image: url(../objetos/estado_de_cuenta.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
+.card-b8 {
+  background-image: url(../objetos/notas_de_credito.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
+.card-b9 {
+  background-image: url(../objetos/cuentas_contables.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
+.card-b10 {
+  background-image: url(../objetos/imprimir_cheques.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 35px;
+  margin-top: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -200,76 +381,6 @@ h2 {
 
 .cards {
   background-color: transparent;
-}
-
-/*:::::Estilos para opciones*/
-/*:::::Page Clientes Activos Con ANIDACION SASS en HOOVER*/
-.container2 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 100px;
-}
-
-.card {
-  background: #ffffff;
-  width: 400px;
-  height: 680px;
-  margin: 10px;
-  border-radius: 15px;
-  text-align: center;
-  opacity: 0.8;
-}
-.card:hover {
-  background-color: #14385c;
-  color: #ffffff;
-  cursor: pointer;
-  transform: scale(1.02);
-  transition: all 1s ease;
-  opacity: 1;
-}
-
-.card-image {
-  height: 200px;
-  margin-bottom: 15px;
-  border-radius: 15px 15px 0 0;
-}
-
-.card-1 {
-  background-image: url(../objetos/southcargo.png);
-  background-size: 63%;
-  background-repeat: no-repeat;
-  background-position: 80px;
-}
-
-.card-2 {
-  background-image: url(../objetos/gps.png);
-  background-size: 45%;
-  background-repeat: no-repeat;
-  background-position: 110px;
-}
-
-.card-3 {
-  background-image: url(../objetos/MN.png);
-  background-size: 95%;
-  background-repeat: no-repeat;
-  background-position: 10px;
-}
-
-.card-4 {
-  background-image: url(../objetos/TEE.png);
-  background-size: 98%;
-  background-repeat: no-repeat;
-  background-position: 10px;
-}
-
-.boton {
-  background-color: #14385c;
-  color: #ffffff;
-  padding: 15px 20px;
-  display: block;
-  text-align: center;
-  margin: 50px 50px;
 }
 
 /*:::::Pie de Pagina*/
