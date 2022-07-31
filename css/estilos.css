@@ -79,14 +79,6 @@
   opacity: 1;
 }
 
-.bannersolicitud {
-  height: 360px;
-  width: 1200px;
-  margin-left: 350px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
 /*:::::Page Clientes Activos Con ANIDACION SASS en HOOVER*/
 .container2 {
   display: flex;
@@ -378,13 +370,21 @@ h2 {
   width: 30%;
 }
 
-/*:::::banner de index*/
+/*:::::banners de index y pag de Solicitud*/
 .bannerindex {
   height: 360px;
   width: 1200px;
   margin-left: 300px;
   margin-bottom: 0px;
   margin-top: 50px;
+}
+
+.bannersolicitud {
+  height: 360px;
+  width: 1200px;
+  margin-left: 350px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 /*:::::Imagen de Etapas del desarrollo Con ANIDACION SASS en HOOVER*/
@@ -544,5 +544,34 @@ h2 {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 50%;
+  }
+  .bannerindex {
+    height: 260px;
+    width: 680px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .bannerindex {
+    height: 160px;
+    width: 380px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .bannersolicitud {
+    height: 160px;
+    width: 380px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .textoinicio {
+    font-size: large;
+  }
+  .textos2 {
+    font-size: large;
   }
 }/*# sourceMappingURL=estilos.css.map */
