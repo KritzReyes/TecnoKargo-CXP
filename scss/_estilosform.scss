@@ -10,7 +10,7 @@
     padding: 80px;
     margin: auto;
     display: grid;
-    margin-top: 100px;
+    margin-top: 0px;
     margin-bottom: 50px;
     border-radius: 12px;
     font-family: 'calibri';
@@ -24,7 +24,7 @@
 
   .form-register h4 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   
   .controls {
@@ -69,3 +69,10 @@
   }
 }
 
+.bannersolicitud{
+  height: 360px;
+  width: 1200px;
+  margin-left: 350px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
