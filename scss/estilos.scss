@@ -245,10 +245,24 @@ margin-bottom: 10px ;
      .bannersolicitud{
        height: 180px;
        width: 430px;
-       margin-left: 0px;
+       margin-left: 30px;
        margin-bottom: 0px;
        margin-top: 0px;
      }
+     .textoinicio{
+      margin-top: 50px;
+      margin-left: 40px;
+      margin-right: 40px;
+      text-align: justify;
+      font-size: large;
+    }
+    .textos2{
+      margin-top: 50px;
+      margin-left: 40px;
+      margin-right: 40px;
+      text-align: justify;
+      font-size: large;
+    }
   }
   @media screen and (min-width: 640px) and (max-width: 1280px) {
     body {
@@ -273,7 +287,6 @@ margin-bottom: 10px ;
       margin-bottom: 0px;
       margin-top: 50px;
      }
-     
      .bannersolicitud{
        height: 280px;
        width: 740px;
