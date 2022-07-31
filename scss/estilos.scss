@@ -220,11 +220,14 @@ margin-bottom: 10px ;
   /*:::::MediaQuerys*/
   @media screen and (max-width: 640px) {
     body {
-      @include mqbackground;
+      background-image: url(../objetos/Fondo.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      position: relative;
       background-size: 400%;
     }
-    .videotecnokargo{
-      display:block;
+    .videotecnokargo {
+      display: block;
       flex-direction: column;
       margin-left: 10%;
       margin-top: 50px;
@@ -232,45 +235,63 @@ margin-bottom: 10px ;
       width: 80%;
     }
     .bannerindex {
-      height: 220px;
-      width: 490px;
-      margin-left: 10px;
+      height: 200px;
+      width: 500px;
+      margin-left: 0px;
       margin-bottom: 0px;
       margin-top: 50px;
      }
-
-    }
-  
-  @media screen and (min-width: 640px) and (max-width: 1280px) {
-    body {
-      @include mqbackground;
-      background-size: 350%;
-      ;
-    }
-    .videotecnokargo{
-      display:block;
-      flex-direction: column;
-      margin-left: 10%;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      width: 80%;
-    }
-    .bannerindex {
-      height: 260px;
-      width: 680px;
-      margin-left: 30px;
-      margin-bottom: 0px;
-      margin-top: 10px;
+     
+     .bannersolicitud{
+       height: 200px;
+       width: 500px;
+       margin-left: 0px;
+       margin-bottom: 0px;
+       margin-top: 0px;
      }
   }
-  
+  @media screen and (min-width: 640px) and (max-width: 1280px) {
+    body {
+      background-image: url(../objetos/Fondo.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      position: relative;
+      background-size: 350%;
+    }
+    .videotecnokargo {
+      display: block;
+      flex-direction: column;
+      margin-left: 10%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 80%;
+    }
+    .bannerindex {
+      height: 280px;
+      width: 740px;
+      margin-left: 0px;
+      margin-bottom: 0px;
+      margin-top: 50px;
+     }
+     
+     .bannersolicitud{
+       height: 280px;
+       width: 740px;
+       margin-left: 0px;
+       margin-bottom: 0px;
+       margin-top: 0px;
+     }
+  }
   @media screen and (min-width: 1280px) {
     body {
-      @include mqbackground;
+      background-image: url(../objetos/Fondo.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      position: relative;
       background-size: 120%;
     }
-    .videotecnokargo{
-      display:block;
+    .videotecnokargo {
+      display: block;
       flex-direction: column;
       margin-left: 25%;
       margin-top: 50px;
@@ -278,33 +299,18 @@ margin-bottom: 10px ;
       width: 50%;
     }
     .bannerindex {
-      height: 260px;
-      width: 680px;
-      margin-left: 30px;
+      height: 360px;
+      width: 1200px;
+      margin-left: 300px;
       margin-bottom: 0px;
-      margin-top: 10px;
+      margin-top: 50px;
+     }
+     
+     .bannersolicitud{
+       height: 360px;
+       width: 1200px;
+       margin-left: 350px;
+       margin-bottom: 0px;
+       margin-top: 0px;
      }
   }
-  @media only screen and (min-width: 412px) and (max-width: 767px){
-  .bannerindex {
-    height: 160px;
-    width: 380px;
-    margin-left: 30px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-   }
-   .bannersolicitud{
-    height: 160px;
-    width: 380px;
-    margin-left: 20px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-
-   .textoinicio{
-      font-size:large ;
-  }
-  .textos2{
-      font-size: large;
-  }
-}
